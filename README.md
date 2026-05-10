@@ -58,6 +58,11 @@ sudo chown www-data:www-data /var/log/honeypot
 
 Copy the Nginx configuration files that are located in the "config/nginx" repository:
 
+```bash
+/etc/nginx/nginx.conf
+/etc/nginx/conf.d/group26.conf
+```
+
 
 ### 4. Obtain an SSL certificate and automating with Certbot
 
