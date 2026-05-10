@@ -13,7 +13,7 @@ TODO Steps to setup the site:
 
 ### 1. Fake admin page
 
-A fake admin login page is available at `/admin`. This is to tric people into thinking they have found the admin login page. In reality, there is not admin page. Admin acces can only be given inside of the database. (the /admin page is also visible inside the robots.txt)
+A fake admin login page is available at `/admin`. This is to tric people into thinking they have found the admin login page. In reality, there is not admin page. Admin access can only be given inside of the database. (the /admin page is also visible inside the robots.txt)
 
 ![alt text](images/image.png)
 
@@ -90,7 +90,7 @@ The application files are located at `/usr/share/nginx/group26/public/` and the 
 
 For the logging we use Kibana as the visual interface. The data itself is being collected by Elasticsearch.
 
-To acces the logging page, go to https://elastic.hp.edu.technet.howest.be:5601. Login with `group-26 / group26ADYL`
+To access the logging page, go to https://elastic.hp.edu.technet.howest.be:5601 and login.
 
 Go to the `dashboards` tab. There you will see 3 dashboards.
 
@@ -111,3 +111,14 @@ Shows traffic of the first honeypot (fake /admin page)
 Shows traffic of the fake FTP server.
 
 ![alt text](images/image-5.png)
+
+
+## Testing
+
+Before the environment is opened to the other students to pentest, we performed some tests ourselfs:
+
+- **Port scan** — verified that no unnecessary ports are exposed and checked if the ftp server is running.
+
+![alt text](images/nmap_scan.png)
+
+- **Logging** — checked if the logging for the honeypots and main application works.
