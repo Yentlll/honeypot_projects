@@ -15,7 +15,7 @@ TODO Steps to setup the site:
 
 A fake admin login page is available at `/admin`. This is to tric people into thinking they have found the admin login page. In reality, there is not admin page. Admin acces can only be given inside of the database. (the /admin page is also visible inside the robots.txt)
 
-![alt text](image.png)
+![alt text](images/image.png)
 
 
 #### How it works
@@ -25,7 +25,7 @@ A fake admin login page is available at `/admin`. This is to tric people into th
 - Every login attemp and action performed on the fake page, is being logged.
 
 
-![alt text](image-1.png)
+![alt text](images/image-1.png)
 
 #### What gets logged
 
@@ -48,7 +48,7 @@ A fake ftp server is available at `port 2121`. This is to see if an attacker is 
 ---
 
 Example of how to use it:
-![alt text](image-2.png)
+![alt text](images/image-2.png)
 
 #### What gets logged
 
@@ -71,7 +71,7 @@ Once logged in, users have access to the following features:
 
 Admins have access to an admin panel where they can manage and enable/disable users.
 
-![alt text](image-6.png)
+![alt text](images/image-6.png)
 
 ###  Security Measures
 
@@ -98,16 +98,16 @@ Go to the `dashboards` tab. There you will see 3 dashboards.
 
 Shows traffic of the main application. 
 
-![alt text](image-3.png)
+![alt text](images/image-3.png)
 
 ### 2. Honeypot monitor
 
 Shows traffic of the first honeypot (fake /admin page)
 
-![alt text](image-4.png)
+![alt text](images/image-4.png)
 
 ### 3. FTP-Honeypot monitor
 
 Shows traffic of the fake FTP server.
 
-![alt text](image-5.png)
+![alt text](images/image-5.png)
