@@ -17,7 +17,6 @@ A fake admin login page is available at `/admin`. This is to tric people into th
 
 ![alt text](images/image.png)
 
-
 #### How it works
 
 - When an attacker tries to login with admin / admin, they are presented with a fake admin dashboard. Here they can disable sertain users. Everything you do on here is fake.
