@@ -1,1 +1,1 @@
-In This repo you will find our code
+In This repo you will find our config files
