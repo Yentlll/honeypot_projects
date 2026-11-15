@@ -174,7 +174,7 @@ output.elasticsearch:
   hosts: ["elastic.hp.edu.technet.howest.be:9200"]
   protocol: "https"
   username: "group-26"
-  password: "group26ADYL"
+  password: ""
   index: "group-26-filebeat"
   ssl:
     certificate_authorities: ["/etc/filebeat/certs/elastic_http_ca.crt"]
